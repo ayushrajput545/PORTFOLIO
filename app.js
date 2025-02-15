@@ -46,7 +46,7 @@ document.getElementById('contact-form').addEventListener('submit' , async functi
     const formData = { name, email, subject, message };
 
     try {
-        const response = await fetch("http://localhost:3000/send-email", {
+        const response = await fetch("https://portfolio-uazd.onrender.com/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
